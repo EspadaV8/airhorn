@@ -1,4 +1,4 @@
-baseurl = "https://pages.gitlab.io/hugo/"
+baseurl = "https://espadav8.gitlab.io/intellihugo"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
