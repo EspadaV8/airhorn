@@ -54,41 +54,92 @@ pygmentCodeFences = true
   itchio = "username"
   keybase = "username"
 
+[[menu.main]]
+    identifier = "features"
+    name = "Features"
+    weight = 1
+
+[[menu.main]]
+    identifier = "people-management"
+    name = "People Management"
+    weight = 1
+    parent = "features"
+
+[[menu.main]]
+    name = "Employee Experience Workflows"
+    weight = 1
+    parent = "people-management"
+    url = "online-hr/people-management/employee-experience"
+
+[[menu.main]]
+    name = "Feedback Culture"
+    weight = 2
+    parent = "people-management"
+    url = "online-hr/people-management/continuous-feedback"
+
+[[menu.main]]
+    name = "Performance Process & Reviews"
+    weight = 3
+    parent = "people-management"
+    url = "online-hr/people-management/performance"
+
+[[menu.main]]
+    name = "Goals"
+    weight = 4
+    parent = "people-management"
+    url = "online-hr/people-management/goals"
+
+[[menu.main]]
+    name = "Learning & Development"
+    weight = 5
+    parent = "people-management"
+    url = "online-hr/analytics/learning-development"
+
+[[menu.main]]
+    name = "Leadership Tools"
+    weight = 6
+    parent = "people-management"
+    url = "online-hr/analytics/leadership-discipline"
+
+[[menu.main]]
+    identifier = "company"
+    name = "Company"
+    weight = 2
+
+[[menu.main]]
+    identifier = "about-intellihr"
+    name = "About intelliHR"
+    weight = 1
+    parent = "company"
+
+[[menu.main]]
+    name = "Our Story"
+    weight = 1
+    url = "company/our-story"
+    parent = "about-intellihr"
+
+[[menu.main]]
+    name = "Our People"
+    weight = 2
+    url = "company/our-people"
+    parent = "about-intellihr"
+
+[[menu.main]]
+    name = "Pricing"
+    weight = 3
+    url = "pricing"
+
+[[menu.main]]
+    identifier = "partners"
+    name = "Partners"
+    weight = 4
+
+[[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    weight = 5
 
 [[menu.main]]
     name = "Blog"
-    url = ""
-    weight = 1
-
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+    weight = 6
+    url = "insights"

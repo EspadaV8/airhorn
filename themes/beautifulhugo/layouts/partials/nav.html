@@ -18,7 +18,19 @@
               <a class="navlinks-parent" href="javascript:void(0)">{{ .Name }}</a>
               <div class="navlinks-children">
                 {{ range .Children }}
-                  <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                  <span>{{ .Name }}</span>
+
+                  {{ if .HasChildren }}
+                  <ul>
+                    {{ range .Children }}
+                      <li>
+                        <div>
+                            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                        </div>
+                      </li>
+                      {{ end }}
+                    </ul>
+                  {{ end }}
                 {{ end }}
               </div>
             </li>
