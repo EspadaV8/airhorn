@@ -1,4 +1,4 @@
-baseurl = "https://espadav8.gitlab.io/intellihugo"
+baseurl = "/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
@@ -15,7 +15,7 @@ pygmentCodeFences = true
 
 [Params]
   subtitle = "Hugo Blog Template for GitLab Pages"
-  logo = "img/avatar-icon.png"
+  logo = "img/avatar-icon.jpg"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
