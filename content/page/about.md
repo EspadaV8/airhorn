@@ -10,7 +10,7 @@ My name is The Dude. I have the following qualities:
 - I'm extremely loyal to my friends
 - I like bowling
 
-That rug(?) really tied the room together.
+That rug really tied the room together.
 
 ### my history
 
